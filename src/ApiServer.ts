@@ -34,6 +34,6 @@ export class ApiServer{
 }
 
 ApiServer.initAndStart().then(value=>{
-    Log.info(value);
+    // Log.info(value);
     Log.info("Hello world!");
 });
