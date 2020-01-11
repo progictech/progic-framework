@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "debug": "ts-node-dev src/ApiServer.ts --debug --watch"
+    "debug": "ts-node-dev src/ApiServer.ts --debug --watch",
+    "pushToGit": "git add . && git commit -f && git push"
   },
   "devDependencies": {
     "ts-node-dev": "^1.0.0-pre.44",
